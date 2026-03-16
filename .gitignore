@@ -1,0 +1,22 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略模型权重
+*.pt
+*.pth.tar
+*.onnx
+
+# 忽略数据和结果
+data/
+results/
+output/
+recording/
+*.mp4
+*.csv
+*.json
+
+# 忽略 IDE 配置
+.vscode/
+.idea/
